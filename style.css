@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Roboto&display=swap');
+
+* {
+  font-family: 'Josefin Sans';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/5402944/pexels-photo-5402944.jpeg?cs=srgb&dl=pexels-lucas-pezeta-5402944.jpg&fm=jpg&_gl=1*1m586gz*_ga*NTI2MTEwNTQ4LjE2NjQ4NTg5OTM.*_ga_8JE65Q40S6*MTY2Njk1ODg0NS40LjAuMTY2Njk1ODg0NS4wLjAuMA..);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo {
+  color: #1dbced;
+  font-size: 28px;
+}
+.logo span {
+  color: #f82351;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  transition: .3s;
+}
+nav ul li a {
+  color: #1dbced;
+  text-decoration: none;
+  font-weight: bold;
+  transition: .3s;
+}
+nav ul li a:hover {
+  color: #f82351;
+}
+.btn{
+  border: none;
+  background: #c51138;
+  color: #1dbced;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
